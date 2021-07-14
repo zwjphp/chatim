@@ -40,10 +40,15 @@
 		},
 		onHide: function() {
 			console.log('App Hide')
+		},
+		onError(e) {
+			console.log('error', e);
 		}
 	}
 </script>
 
-<style>
-	/*每个页面公共css */
+<style leng="less">
+	@import "./common/less/base"; 
+	@import "./common/less/iconfont";
+	@import "./common/less/border-1px";
 </style>
