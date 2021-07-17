@@ -47,8 +47,8 @@
 	}
 </script>
 
-<style leng="less">
-	@import "./common/less/base"; 
+<style lang="less">
+	@import "./common/less/base";
 	@import "./common/less/iconfont";
 	@import "./common/less/border-1px";
 </style>

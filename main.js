@@ -23,7 +23,7 @@ Vue.prototype.checkLogin = function(backpage, backtype) {
 		uni.redirectTo({
 			url: './pages/login/login?backpage=' + backpage + '&backtype=' + backtype
 		});
-		reurn false;
+		return false;
 	}
 	return [UID, TOKEN];
 }

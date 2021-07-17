@@ -34,7 +34,7 @@ export default new Vuex.Store({
 		// 发送http请求登录后设置用户id 用于ws登录
 		setUid(state, uid) {
 			state.uid = uid
-		}
+		},
 		// 发送http请求登录后设置用户token用于ws登录
 		setSid(state, sid) {
 			state.token = sid

@@ -17,7 +17,7 @@ http.validateStatus = (statusCode) => {
 	return statusCode === 200
 }
 
-http.interceptor.request((config, cancel)) => { /* 请求之后拦截器 */
+http.interceptor.request((config, cancel) => { /* 请求之后拦截器 */
 	config.header = {
 		...config.header,
 	}
@@ -31,7 +31,7 @@ http.interceptor.request((config, cancel)) => { /* 请求之后拦截器 */
 		// 不需要token
 	}
 	return config
-}
+})
 
 http.interceptor.response((response) => {
 	if (response.statusCode == 401) {
