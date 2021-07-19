@@ -5,6 +5,12 @@
 		    "style": {
 		        "navigationBarTitleText": "登录"
 		    }
+		},
+		{
+		    "path": "pages/reg/reg",
+		    "style": {
+		        "navigationBarTitleText": "注册"
+		    }
 		}
 		
 		

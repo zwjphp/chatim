@@ -3,7 +3,8 @@ import Request from "./request"
 const http = new Request()
 
 http.setConfig((config) => {
-	config.baseUrl = uni.getStorageInfoSync('URL')
+	config.baseUrl = uni.getStorageSync('URL')
+	console.log(config.baseUrl);
 	config.header = {
 		...config.header,
 	}
