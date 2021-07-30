@@ -75,10 +75,13 @@
 					.catch(err => {});
 			},
 			imageURL(url) {
+				console.log(url);
 				if (url.substring(0, 4) == 'http') {
 					return url;
 				} else {
-					return uni.getStorageSync('URL') + url;
+					// console.log(uni.getStorageSync('URL') + url);
+					// return uni.getStorageSync('URL') + url;
+					return url;
 				}
 			},
 			nums(n) {
