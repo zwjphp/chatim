@@ -19,6 +19,10 @@
 		    }
 		},
 		{
+		    "path": "pages/tabbar/users/view/mine",
+		    "style": {}
+		},
+		{
 		    "path" : "pages/chat/chatim",
 		    "style" : {
 				"enablePullDownRefresh": true
@@ -32,5 +36,30 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#333",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabbar/contact/contact",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath":"static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},{
+				"pagePath": "pages/tabbar/group/ListGroup/ListGroup",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "群"
+			},
+			{
+				"pagePath": "pages/tabbar/users/view/mine",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我"
+			}
+		]
 	}
+	
 }

@@ -137,11 +137,11 @@
 							uni.setStorageSync('Authorization', res.msg);
 							
 							var avatar = res.data.avatar ? res.data.avatar : 'https://img-cdn-qiniu.dcloud.net.cn/new-page/hx.png';
-							if (avatar.substring(0, 4) == 'http') {
+							// if (avatar.substring(0, 4) == 'http') {
 								uni.setStorageSync('avatar', avatar);
-							} else {
-								uni.setStorageSync('avatar', uni.getStorageSync('URL') + avatar);
-							}
+							// } else {
+								// uni.setStorageSync('avatar', uni.getStorageSync('URL') + avatar);
+							// }
 							this.$store.commit('setUid', uid);
 							this.$store.commit('setSid', token);
 							this.$store.commit('setUrl', uni.getStorageSync('WS') + '/chat?id=' + uid + '&token=' + token);
