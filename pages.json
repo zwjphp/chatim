@@ -27,6 +27,11 @@
 		    "style" : {
 				"enablePullDownRefresh": true
 			}
+		}, {
+		    "path": "pages/pwd/pwd",
+		    "style": {
+		        "navigationBarTitleText": "找回密码"
+		    }
 		}
 		
 		
