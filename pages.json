@@ -27,12 +27,19 @@
 		    "style" : {
 				"enablePullDownRefresh": true
 			}
-		}, {
+		},
+		{
 		    "path": "pages/pwd/pwd",
 		    "style": {
 		        "navigationBarTitleText": "找回密码"
 		    }
-		}
+		},
+		{            
+			"path" : "pages/smslogin/smslogin",
+            "style": {
+                "navigationBarTitleText": "短信登录"
+            }
+        }
 		
 		
 	],
