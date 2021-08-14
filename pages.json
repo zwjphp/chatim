@@ -40,6 +40,12 @@
                 "navigationBarTitleText": "短信登录"
             }
         }
+		,{
+		    "path" : "pages/tabbar/users/view/addfriend/addfriend",
+		    "style" : {
+				"navigationBarTitleText": "添加好友"
+			}
+		}
 		
 		
 	],
